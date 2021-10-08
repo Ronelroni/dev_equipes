@@ -21,13 +21,7 @@ class AgendasController < ApplicationController
     end
   end
 
-  def destroy
-    @agenda.destroy
-    respond_to do |format|
-      format.html { redirect_to agendas_url, notice: "Agenda was successfully destroyed." }
-      format.json { head :no_content }
-    end
-  end
+  
   private
 
   def set_agenda
