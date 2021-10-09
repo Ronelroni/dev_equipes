@@ -217,6 +217,9 @@ en:
     messages:
       create_agenda: 'Successfully created an agenda!'
       create_article: 'Successfully created an article!'
+      delete_agenda: "Successfully deleted an agenda"
+      failed_delete_agenda: "Delete Agenda failed"
+      cannot_delete_agenda: 'You are not authorized  delete this agenda'
       update_article: 'Successfully updated the article!'
       assigned: 'Assigned!'
       failed_to_assign: 'Assignment failed'
@@ -226,13 +229,16 @@ en:
       cannot_delete_only_a_member: 'This user is only a member of this team and cannot be deleted'
       delete_member: 'The member has been deleted'
       cannot_delete_member_4_some_reason: 'The file could not be deleted for some reason.'
+      cannot_delete_memeber_no_permission: 'You are not authorized to delete this user'
       failed_to_post: 'Failed to post ...'
       create_team: 'Successfully created a team!'
       failed_to_save_team: 'Failed to save...'
+      cannot_edit_team_no_permission: 'You are not authorized to set this team'
       update_team: 'Successfully updated the team!'
       delete_team: 'The team has been deleted'
       update_profile: 'Successfully update your profile!'
       complete_registration: 'Registration completed'
+      complete_agenda_delete: 'Agenda deleted'
       edit_article: 'Edit an article'
       input_title: 'Input a title of this article'
       input_content: 'Input a content of this artcile'
@@ -263,16 +269,18 @@ en:
       edit_profile: 'Edit Profile'
       team_you_belong_to: 'The team you belong to'
       posted_articles: 'List of posted articles'
+      complete_owner_assign: "Assign to owner"
     button:
       submit: 'Submit'
       edit: 'Edit'
       delete: 'Delete'
       create: 'Create'
       invite: 'Invite'
+      owner: 'Give Authority'
     top:
       line1: 'it is an application to share a specific issue (agenda) easily'
       line2: 'for each member separately for each team or agenda'
       line3: 'If you share information with slack etc., it will happen that important information will flow'
       line4: 'and you will not be able to pick it up, so it is an internal application to avoid it'
     common:
-      team: 'Team'
+       team: 'team'
