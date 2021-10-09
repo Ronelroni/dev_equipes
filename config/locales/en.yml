@@ -217,6 +217,9 @@ en:
     messages:
       create_agenda: 'Successfully created an agenda!'
       create_article: 'Successfully created an article!'
+      delete_agenda: "Successfully deleted an agenda"
+      failed_delete_agenda: "Delete Agenda failed"
+      cannot_delete_agenda: 'You are not authorized  delete this agenda'
       update_article: 'Successfully updated the article!'
       assigned: 'Assigned!'
       failed_to_assign: 'Assignment failed'
@@ -235,6 +238,7 @@ en:
       delete_team: 'The team has been deleted'
       update_profile: 'Successfully update your profile!'
       complete_registration: 'Registration completed'
+      complete_agenda_delete: 'Agenda deleted'
       edit_article: 'Edit an article'
       input_title: 'Input a title of this article'
       input_content: 'Input a content of this artcile'
